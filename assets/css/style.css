@@ -15,11 +15,25 @@ header{
     background: #fff;
     border-bottom: 4px solid #ccc;    
 }
+
+
+
+.portfolio{
+    position: relative;
+    margin-bottom: 16px;
+    width: 40%;
+    padding: 128px 0 32px 0; 
+    float: left;
+    
+}
 .content_area{
     width: 960px;
     margin: 0 auto;
     background: #fff;
+    
 }
+
+
 
 
 h1{
@@ -58,6 +72,7 @@ section{
     padding: 24px;
     border: 4px solid #ddd;
     margin-top: 32px; 
+    display: flow-root;
 }
 
 h2{
@@ -117,14 +132,9 @@ button{
     border: none;
 }
 
-.portfolio{
-    position: relative;
-    margin-bottom: 16px;
-    width: 40%;
-    padding: 128px 0 32px 0; 
+
     
-    
-}
+
 
 #games{
     background: url('../images/Image1.jpg');
@@ -133,9 +143,33 @@ button{
 }
 
 #movies{
+    float: right;
     background: url('../images/Image2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    
+}
+
+#webdesign{
+    background: url('../images/Image3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+#enterprise{
+    float: right;
+    background: url('../images/Image4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+#crypto{
+    background: url('../images/Image5.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
 }
 
 .portfolio h3{
